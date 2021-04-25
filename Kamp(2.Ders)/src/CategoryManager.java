@@ -5,5 +5,10 @@ public class CategoryManager {
 		System.out.println("Category has been Added");
 		
 	}
+	public void Delete(Course course)
+	{
+		System.out.println("Course has been Deleted");
+		
+	}
 
 }
