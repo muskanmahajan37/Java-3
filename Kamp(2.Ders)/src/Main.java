@@ -5,8 +5,12 @@ public class Main {
 		Course course1 = new Course(1, "C#", "Engin Demiroð");
 		Course course2 = new Course(2, "Java", " Kerem Varýþ");
 		Course course3 = new Course(3, "HTML+CSS", " Mehmet Karakaþ");
+		
+		
 		Category category1 = new Category(1, "Backend Programlama");
 		Category category2 = new Category(2, "Frontend Programlama");
+		
+		
 		CategoryManager categoryManager = new CategoryManager();
 		CourseManager courseManager = new CourseManager();
 

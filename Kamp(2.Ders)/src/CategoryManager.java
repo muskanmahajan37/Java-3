@@ -2,12 +2,12 @@
 public class CategoryManager {
 	public void Add(Category category)
 	{
-		System.out.println("Category has been Added");
+		System.out.println( category.Name+" has been Added");
 		
 	}
-	public void Delete(Course course)
+	public void Delete(Category category)
 	{
-		System.out.println("Course has been Deleted");
+		System.out.println(category.Name+ " has been Deleted");
 		
 	}
 
