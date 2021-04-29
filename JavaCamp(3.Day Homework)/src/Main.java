@@ -21,7 +21,7 @@ public class Main {
 		User[] users = { user1, student1, instructor1 };
 
 		for (User person : users) {
-			System.out.println(person.Name);
+			System.out.println(person.getName());
 		}
 
 	}

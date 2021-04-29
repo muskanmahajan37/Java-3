@@ -2,22 +2,22 @@ import org.graalvm.compiler.nodes.InliningLog.UpdateScope;
 
 public class StudentManager {
 	public void Add(Student student) {
-		System.out.println(student.Name + ", Kaydoldunuz ");
+		System.out.println(student.getName() + ", Kaydoldunuz ");
 
 	}
 
 	public void AddCourse(Student student) {
-		System.out.println(student.Name + "," + " Kurs'a Kaydoldunuz ");
+		System.out.println(student.getName() + "," + " Kurs'a Kaydoldunuz ");
 
 	}
 
 	public void DeleteCourse(Student student) {
-		System.out.println(student.Name + " Kurs'dan Çýktýnýz ");
+		System.out.println(student.getName() + " Kurs'dan Çýktýnýz ");
 
 	}
 
 	public void Update(Student student) {
-		System.out.println(student.E_Mail + " Olarak Güncellendi");
+		System.out.println(student.getE_Mail() + " Olarak Güncellendi");
 
 	}
 
