@@ -1,9 +1,9 @@
-import javax.sound.midi.SysexMessage;
+
 
 public class Main {
 
 	public static void main(String[] args) {
-		// Manager metodlarıı kullanabilmek için Newliyoruz
+		
 		StudentManager studentManager = new StudentManager();
 		UserManager userManager = new UserManager();
 		InstructorManager instructorManager = new InstructorManager();
